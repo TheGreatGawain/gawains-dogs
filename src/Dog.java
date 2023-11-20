@@ -1,4 +1,5 @@
 public class Dog {
+
     public String name;
     public String breed;
     public int ageInYears;
@@ -14,7 +15,7 @@ public class Dog {
         System.out.println("Gender: " + gender);
         System.out.println("Age in years: " + ageInYears);
         System.out.println("Weight in lb: " + weightInPounds);
-        System.out.println("Chubby: " + vaccinated);
+        System.out.println("Vaccinated: " + vaccinated);
         System.out.println(newline);
     }
 }
